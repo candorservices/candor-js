@@ -22,3 +22,6 @@ Remote configs allow clients to easily configure parts of their apps without hav
 let obj = await candor.getConfig(CONFIG_ID);
 ```
 to retrieve the remote config as a JS object. You can create a remote config at https://candorian.app/config-manager.
+
+## Need support?
+If you need help with anything to do with this project, then please see the [project-mercury-support](https://canary.discord.com/channels/650773903236399134/1146431646418079744) channel in Discord under the FREELANCERS category.
