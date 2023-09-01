@@ -14,7 +14,7 @@ You can verify if a license is valid using this function:
 let valid = await candor.verifyLicense(LICENSE_KEY, PRODUCT_ID);
 ```
 
-You'll want to grab your product ID from https://candorian.app/license-manager by creating a new product and then adding a license. The license key should be added by the client, using some sort of config (we recommend remote configs, see below!) Assign your license to your client using the tools in the dashboard.
+You'll want to grab your product ID from https://candorian.app/license-manager by creating a new product and then adding a license. The license key should be added by the client, using some sort of config (we recommend remote configs, see below!). Assign your license to your client using the tools in the dashboard.
 
 ### Retrieving a remote config
 Remote configs allow clients to easily configure parts of their apps without having to mess with complicated or messy configuration files. You can use this function:
