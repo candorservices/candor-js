@@ -6,7 +6,7 @@ export class Candor {
     }
 
     async verifyLicense(licenseKey:string, productId:string):Promise<boolean> {
-        const response = await fetch('https://candorian.app/api/licenses/verify', {
+        const response = await fetch('https://dashboard.candorservices.net/api/licenses/verify', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -25,7 +25,7 @@ export class Candor {
     }
 
     async getConfig(configId:string):Promise<any> {
-        const response = await fetch(`https://candorian.app/api/configs/${configId}`, {
+        const response = await fetch(`https://dashboard.candorservices.net/api/configs/${configId}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
