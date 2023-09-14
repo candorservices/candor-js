@@ -4,7 +4,7 @@ JS/TS Library for Candor Services' Project Mercury API.
 ## Documentation
 You can add the library to your project with:
 ```
-npm install candor-mercury
+npm install candor-js-lib
 ```
 You can then get started by intializing a new instance of the `Candor` clas using your public API key found at https://candorian.app/api-dashboard.
 
