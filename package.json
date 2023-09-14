@@ -1,5 +1,5 @@
 {
-  "name": "candor-mercury",
+  "name": "candor-js-lib",
   "version": "1.0.0",
   "description": "JavaScript/TypeScript library created by Candor Services for interfacing with Project Mercury's API.",
   "maintainers": [
